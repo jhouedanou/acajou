@@ -13,6 +13,18 @@
  */
 
 get_header(); ?>
+ <ul id="bannerslider" class="cycle-slideshow" data-cycle-slides="li">
+                        <?php
+                         $args = array( 'cat'=> 2, 'showposts'=> 5);
+                         $boucle = new WP_Query( $args );
+                        while ( $boucle ->have_posts() ) : $boucle ->the_post();
+                        ?>
+                        <li><?php if ( has_post_thumbnail()) { the_post_thumbnail('full', array('class' => 'riches flexible'));}?><div class="banner-infors"><?php the_title(); ?></div></li>
+                         <?php
+                            endwhile;
+                            wp_reset_query(); // Remember to reset
+                        ?>
+                    </ul>
         <section class="row main-row">
             <div class="category-row">
                 <h1 class="category-title"><?php acajou_from_blog_title();?></h1>

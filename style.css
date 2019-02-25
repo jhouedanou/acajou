@@ -1,10 +1,11 @@
 /*
-Theme Name: Acajou
-Theme URI: http://github.com/samuelguebo/acajou
-Author: Samuel Guébo
-Author URI: http://twitter.com/samuelguebo
-Description: Acajou is a clean, simple, and fully responsive WordPress theme that feels like wood and looks awesome on any device. Its name, pronounced <em>/a.kaˈʒu/</em> in French, refers to a tree from tropical forests. It adjusts automatically to any screen size including tablets and smartphones as well as Retina displays. Theme is built using <a href="https://github.com/zurb/foundation-sites">Zurb Foundation</a>, a  framework for HTML5 / CSS3 which is SEO friendly. This WordPress theme was built with blogs and creative portfolios in mind but be creative and unleash its full potential in eCommerce, business and other projects. Acajou is available in English, French, and Spanish for now.
-Version: 1.0.7
+Theme Name: Akene (Acajou Remix) 
+Theme URI: https://github.com/jhouedanou/acajou
+Author: Jean Luc houedanou
+Author URI: https://houedanou.com;
+Description: A theme based on Samuel Guebo's Acajou  - avalaible here https://fr.wordpress.org/themes/acajou/
+I did a couple a typographic and design tweaks , and some SEO optimization.
+Version: 1.0.0
 
 License: GNU General Public License v2 or later
 License URI: LICENSE
@@ -22,4 +23,119 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 .screen-reader-text,
 .gallery-caption,
 .bypostauthor {
+}
+*{
+	
+    -webkit-font-smoothing: antialiased !important;
+
+}
+.post-item{
+	min-height:510px !important;
+
+}
+.single-row article.post-item{
+  border:1px #EEE solid;
+  box-shadow: none !important;
+}
+.single-row article.post-item‡{
+	box-shadow:none !important
+}
+.panel{
+  box-shadow: none !important;
+}
+.panel{
+  box-shadow: none !important;
+}
+body{
+background: white !important; 
+}
+.category-title{
+	font-family:"Noto Serif", sans-serif;
+	font-size:2em;
+	font-weight:bold;
+}
+article.post-item .post-item-title{
+	color:#666 !important;
+}
+.top-bar-section li:not(.has-form) a:not(.button){
+	font-size: .8em;
+}
+article .panel .button{
+	border:#0e94c9 1px solid;
+	background:white;
+	color:#0e94c9;
+}
+.category-row article .panel p{
+	font-family:"Noto Serif",Georgia,"Times New Roman",Times,serif;
+	text-align:justify;
+	color:#4b4f53;
+	font-size:16px;
+	line-height:28px;
+	font-weight:400;
+	
+}
+.socials ul li{
+	margin-left:10px !important;
+}
+article .panel .button:hover{
+	background:#0e94c9;
+	color:white !important;
+}
+.category-row .post-item-caption{
+	background:white;
+	box-shadow:0px 4px 4px rgba(0,0,0,.03);
+	  border:1px #EEE solid;
+
+}
+header div.slogan .title {
+		font-family:"Noto Serif", sans-serif;
+	font-size:2em;
+	font-weight:bold;
+	text-shadow:1px 1px 4px rgba(0,0,0,0.4)
+}
+header div.slogan .description {
+	font-family:"Noto Serif", sans-serif;
+	font-size:20px;
+	color:white;
+}
+.post-item-title a{
+	    font-family: "Noto Serif", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.panel a{
+	text-decoration:underline;
+	
+}
+
+.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6{
+	font-size:16px;
+	padding:10px 0;
+	
+	
+	font-weight:bold;
+	border-bottom:1px #EEE solid;
+	margin-bottom:10px;
+}
+header div.logo img {
+    height: 51px;
+    width: auto;
+}
+.panel p{
+	
+	font-family:"Noto Serif",Georgia,"Times New Roman",Times,serif;
+	text-align:justify;
+	color:#4b4f53;
+	font-size:16px;
+	line-height:28px;
+	font-weight:400;
+}
+header .socials a{
+	color:white;
+	border:1px solid rgba(255,255,255,.3);
+	 -moz-background-clip: content;     /* Firefox 3.6 */
+  -webkit-background-clip: content;  /* Safari 4? Chrome 6? */
+  background-clip: content-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+				
+				
 }
