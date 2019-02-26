@@ -13,7 +13,7 @@
  */
 
 get_header(); ?>
- <ul id="bannerslider" class="cycle-slideshow" data-cycle-slides="li">
+ <div id="bannerslider" class="cycle-slideshow">
                         <?php
                          $args = array( 'cat'=> 2, 'showposts'=> 5);
                          $boucle = new WP_Query( $args );
@@ -24,7 +24,7 @@ get_header(); ?>
                             endwhile;
                             wp_reset_query(); // Remember to reset
                         ?>
-                    </ul>
+                    </div>
         <section class="row main-row">
             <div class="category-row">
                 <h1 class="category-title"><?php acajou_from_blog_title();?></h1>
